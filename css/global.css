@@ -1,0 +1,23 @@
+body{
+    font-weight: 700;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 30px;
+    color: var(--text-primary);
+    text-transform: uppercase;
+}
+
+.subtitle{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 30px;
+    color: var(--text-primary);
+    text-transform: uppercase;
+}
+
+.error{
+    border: 1px solid red;
+}

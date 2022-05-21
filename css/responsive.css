@@ -1,0 +1,18 @@
+@media (max-width: 767.98px){
+    #header .nav-item{
+        padding-top: 20px;
+    }
+
+    #header .collapse button{
+        margin-top: 20px;
+    }
+    
+    #social-networks .img-social-networks{
+        position: static;
+     }
+
+     #footer ul li{
+        list-style: none;
+        padding-top: 10px;
+    }
+}

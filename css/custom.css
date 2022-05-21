@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*HEADER*/
+#header .header-nav{
+    position: absolute;
+    background: #ffffff;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    padding: 10px;
+}
+
+#header .navbar-collapse{
+    width: auto;
+    flex-grow: 0;
+}
+
+#header .nav-item{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#header .collapse button{
+    box-sizing: border-box;
+    box-shadow: none;
+}
+
+#header .bg-header img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+/*TECNOLOGY*/
+#tecnology .card-tecnology{
+    max-height: 448px;
+    max-width: 378px;
+}
+
+#tecnology a.spotlight{
+    display: block;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    transition: all ease-out 0.2s;
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.15) ;
+    border-radius: 10px;
+}
+
+#tecnology a.spotlight:hover{
+    transform: scale(1.1);
+}
+
+#tecnology a.spotlight .card-img{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#tecnology a.spotlight .card-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+ }
+
+#tecnology a.spotlight .card-text  p{
+    color: var(--text-secondary);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+ }
+
+/*GLOBALIZATION*/
+#globalization p{
+    color: var(--text-secondary);
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 39px;
+    text-align: start;
+ }
+
+/*CONTACT*/
+ #contact{
+     height: 788px;
+     background: #F2F2F2;
+ }
+
+ #contact .container{
+     width: 684px;
+ }
+
+ #contact .contact-title span{
+     font-size: 20px;
+     font-weight: 600;
+     line-height: 24px;
+     color: #515151;
+ }
+
+ #contact .contact-form input{
+    height: 69px;
+    border: 1px solid #001D3D;
+    border-radius: 10px;
+    font-size: 30px;
+    position: relative;
+}
+
+#contact .contact-form input:focus{
+    box-shadow: none;
+}
+
+#contact .contact-form input::placeholder{
+    color: #001D3D;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    
+}
+
+#contact .contact-form input[type="text"]::placeholder{
+    background-image: url(../img/Vector\ \(1\).svg);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+#contact .contact-form input[type="tel"]::placeholder{
+    background-image: url(../img/Vector.svg);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+#contact .contact-form input[type="email"]::placeholder{
+    background-image: url(../img/Vector\ \(2\).svg);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+
+#contact .contact-form .button{
+    background: #001D3D;
+    height: 69px;
+    width: 180px;
+    margin-top: 69px;
+}
+
+#contact .container form .button:hover{
+    background: #0750be;
+}
+
+/*SOCIAL NETWORKS*/
+#social-networks h2{
+    font-size: 36px;
+    line-height: 81px;
+}
+
+#social-networks span{
+   color: #479FFF;
+}
+
+#social-networks .app div i{
+    font-size: 35px;
+ }
+
+ #social-networks .app span.item-title{
+    font-size: 24px;
+    line-height: 32px;
+ }
+
+ #social-networks .app .row{
+    position: relative;
+ }
+
+ #social-networks .img-social-networks{
+    position: absolute;
+    right: 150px;
+    bottom: 30px;
+ }
+
+ #social-networks .ideas div h1{
+    font-size: 48px;
+}
+
+ #social-networks .ideas p{
+     display: -webkit-box;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+/*FOOTER*/
+#footer{
+    height: 339px;
+    background: #F2F2F2;
+}
+
+#footer ul li{
+    list-style: none;
+    padding-left: 20px;
+}
+
+#footer ul li a{
+    text-decoration: none;
+    color: var(--text-primary);
+}
+
+#footer ul li a:hover{
+    color: #003771;
+}
