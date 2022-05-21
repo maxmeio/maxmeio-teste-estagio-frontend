@@ -3,6 +3,10 @@
         padding-top: 20px;
     }
 
+    #footer ul li{
+        margin-top: 20px;
+    }
+
     #header .collapse button{
         margin-top: 20px;
     }
